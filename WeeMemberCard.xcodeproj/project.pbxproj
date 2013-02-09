@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA7590C16C63BD300D1B933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA7590B16C63BD300D1B933 /* Foundation.framework */; };
+		ABA7590E16C63BD300D1B933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA7590D16C63BD300D1B933 /* UIKit.framework */; };
+		ABA7591F16C63BD300D1B933 /* WeeMemberCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7591E16C63BD300D1B933 /* WeeMemberCardController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA7590816C63BD300D1B933 /* WeeMemberCard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeeMemberCard; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7590B16C63BD300D1B933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABA7590D16C63BD300D1B933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABA7591216C63BD300D1B933 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		ABA7591316C63BD300D1B933 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		ABA7591516C63BD300D1B933 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		ABA7591916C63BD300D1B933 /* WeeMemberCard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WeeMemberCard.plist; path = Package/Library/PreferenceLoader/Preferences/WeeMemberCard.plist; sourceTree = "<group>"; };
+		ABA7591A16C63BD300D1B933 /* WeeMemberCardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeeMemberCardIcon.png; path = Package/Library/PreferenceLoader/Preferences/WeeMemberCardIcon.png; sourceTree = "<group>"; };
+		ABA7591B16C63BD300D1B933 /* WeeMemberCardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WeeMemberCardIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/WeeMemberCardIcon@2x.png"; sourceTree = "<group>"; };
+		ABA7591C16C63BD300D1B933 /* WeeMemberCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeeMemberCard-Prefix.pch"; sourceTree = "<group>"; };
+		ABA7591D16C63BD300D1B933 /* WeeMemberCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeeMemberCardController.h; sourceTree = "<group>"; };
+		ABA7591E16C63BD300D1B933 /* WeeMemberCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeeMemberCardController.m; sourceTree = "<group>"; };
+		ABA7592416C63BD300D1B933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Package/System/Library/WeeAppPlugins/WeeMemberCard.bundle/Info.plist; sourceTree = "<group>"; };
+		ABA7592516C63BD300D1B933 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = Package/System/Library/WeeAppPlugins/WeeMemberCard.bundle/InfoPlist.strings; sourceTree = "<group>"; };
+		ABA7592616C63BD300D1B933 /* WeeAppBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WeeAppBackground@2x.png"; path = "Package/System/Library/WeeAppPlugins/WeeMemberCard.bundle/WeeAppBackground@2x.png"; sourceTree = "<group>"; };
+		ABA7592716C63BD300D1B933 /* WeeAppBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeeAppBackground.png; path = Package/System/Library/WeeAppPlugins/WeeMemberCard.bundle/WeeAppBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA7590416C63BD300D1B933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7590C16C63BD300D1B933 /* Foundation.framework in Frameworks */,
+				ABA7590E16C63BD300D1B933 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA758FC16C63BD300D1B933 = {
+			isa = PBXGroup;
+			children = (
+				ABA7590F16C63BD300D1B933 /* WeeMemberCard */,
+				ABA7590A16C63BD300D1B933 /* Frameworks */,
+				ABA7590916C63BD300D1B933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA7590916C63BD300D1B933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7590816C63BD300D1B933 /* WeeMemberCard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA7590A16C63BD300D1B933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7590B16C63BD300D1B933 /* Foundation.framework */,
+				ABA7590D16C63BD300D1B933 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA7590F16C63BD300D1B933 /* WeeMemberCard */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591D16C63BD300D1B933 /* WeeMemberCardController.h */,
+				ABA7591E16C63BD300D1B933 /* WeeMemberCardController.m */,
+				ABA7591016C63BD300D1B933 /* Package */,
+				ABA7591416C63BD300D1B933 /* Supporting Files */,
+			);
+			path = WeeMemberCard;
+			sourceTree = "<group>";
+		};
+		ABA7591016C63BD300D1B933 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591116C63BD300D1B933 /* DEBIAN */,
+				ABA7591616C63BD300D1B933 /* Library */,
+				ABA7592016C63BD300D1B933 /* System */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		ABA7591116C63BD300D1B933 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591216C63BD300D1B933 /* control.txt */,
+				ABA7591316C63BD300D1B933 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		ABA7591416C63BD300D1B933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591516C63BD300D1B933 /* PackageVersion.plist */,
+				ABA7591C16C63BD300D1B933 /* WeeMemberCard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA7591616C63BD300D1B933 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591716C63BD300D1B933 /* PreferenceLoader */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		ABA7591716C63BD300D1B933 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591816C63BD300D1B933 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		ABA7591816C63BD300D1B933 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7591916C63BD300D1B933 /* WeeMemberCard.plist */,
+				ABA7591A16C63BD300D1B933 /* WeeMemberCardIcon.png */,
+				ABA7591B16C63BD300D1B933 /* WeeMemberCardIcon@2x.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		ABA7592016C63BD300D1B933 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7592116C63BD300D1B933 /* Library */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		ABA7592116C63BD300D1B933 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7592216C63BD300D1B933 /* WeeAppPlugins */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		ABA7592216C63BD300D1B933 /* WeeAppPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7592316C63BD300D1B933 /* ___PACKAGENAME___ */,
+			);
+			name = WeeAppPlugins;
+			sourceTree = "<group>";
+		};
+		ABA7592316C63BD300D1B933 /* ___PACKAGENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7592416C63BD300D1B933 /* Info.plist */,
+				ABA7592516C63BD300D1B933 /* InfoPlist.strings */,
+				ABA7592616C63BD300D1B933 /* WeeAppBackground@2x.png */,
+				ABA7592716C63BD300D1B933 /* WeeAppBackground.png */,
+			);
+			name = "___PACKAGENAME___";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABA7590516C63BD300D1B933 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABA7590716C63BD300D1B933 /* WeeMemberCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7592A16C63BD300D1B933 /* Build configuration list for PBXNativeTarget "WeeMemberCard" */;
+			buildPhases = (
+				ABA7590316C63BD300D1B933 /* Sources */,
+				ABA7590416C63BD300D1B933 /* Frameworks */,
+				ABA7590516C63BD300D1B933 /* Headers */,
+				ABA7590616C63BD300D1B933 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeeMemberCard;
+			productName = WeeMemberCard;
+			productReference = ABA7590816C63BD300D1B933 /* WeeMemberCard */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA758FE16C63BD300D1B933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = ABA7590116C63BD300D1B933 /* Build configuration list for PBXProject "WeeMemberCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA758FC16C63BD300D1B933;
+			productRefGroup = ABA7590916C63BD300D1B933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA7590716C63BD300D1B933 /* WeeMemberCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABA7590616C63BD300D1B933 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA7590316C63BD300D1B933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7591F16C63BD300D1B933 /* WeeMemberCardController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABA7592816C63BD300D1B933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		ABA7592916C63BD300D1B933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		ABA7592B16C63BD300D1B933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = WeeMemberCard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeeMemberCard/WeeMemberCard-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/WeeMemberCard.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 172.30.54.151;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		ABA7592C16C63BD300D1B933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_NAME = WeeMemberCard;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeeMemberCard/WeeMemberCard-Prefix.pch";
+				INSTALL_PATH = /System/Library/WeeAppPlugins/WeeMemberCard.bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 172.30.54.151;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA7590116C63BD300D1B933 /* Build configuration list for PBXProject "WeeMemberCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7592816C63BD300D1B933 /* Release */,
+				ABA7592916C63BD300D1B933 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA7592A16C63BD300D1B933 /* Build configuration list for PBXNativeTarget "WeeMemberCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7592B16C63BD300D1B933 /* Release */,
+				ABA7592C16C63BD300D1B933 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA758FE16C63BD300D1B933 /* Project object */;
+}
